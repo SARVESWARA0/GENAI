@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Generation</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        textarea { width: 100%; height: 100px; margin-bottom: 10px; }
+        #response { border: 1px solid #ccc; padding: 10px; min-height: 100px; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <h1>AI Text Generation</h1>
+    <textarea id="prompt" placeholder="Enter your prompt here..."></textarea>
+    <button onclick="generateText()">Generate Text</button>
+    <h2>Generated Text:</h2>
+    <div id="response"></div>
+    
+    <script src="streamtext.js"></script>
+</body>
+</html>

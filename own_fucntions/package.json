@@ -1,0 +1,14 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "action.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "zod": "^3.23.8"
+  }
+}
