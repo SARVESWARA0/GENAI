@@ -10,7 +10,7 @@ const {
   const { createGroq } = require("@ai-sdk/groq");  
     
   
-  class Ai {
+  class fun {
     constructor(provider, key, system_prompt) {
       this.API_KEY = key;
       this.usecase = system_prompt;
@@ -110,5 +110,5 @@ const {
     }
   }
   
-  module.exports = Ai;
+  module.exports = fun;
   
