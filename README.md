@@ -1,7 +1,7 @@
-completed
+completed:
 stream text,generate text ,stream object ,generate object all combined in one project
-class (confused whether it is correct or not)
-ai without versel ai sdk
+class
 ai agent (in basic level)
-To Do
+build my own function without any modules only using endpoint and did streamtext,generateobject,generatetext,streamobject using my logic and printed the response in html file.
+To Do:
 update the ai agent 
